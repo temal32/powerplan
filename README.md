@@ -1,15 +1,16 @@
 # powerplan
 ## Get windows power plan information
 
-powerplan is a new Python package to get information about your current windows power plan using subprocess module.
+powerplan is a new Python package to get information about your current windows power plan using subprocess module and to change your current power plan to a different one.
 ## Features
 
 - Get GUID of your current windows power plan
 - Get name of your current windows power plan
+- Change power plan to Power saver, Balanced or high performance.
 
 ## Installation
 
-winpower requires [Python](https://www.python.org/) v3+ to run.
+powerplan requires [Python](https://www.python.org/) v3+ to run.
 
 ## Usage
 
