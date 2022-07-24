@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: powerplan
+Version: 0.0.1
+Summary: Get windows power plan scheme name and guid
+Home-page: https://github.com/temal32/powerplan
+Author: Temal
+Author-email: contact@temal.cf
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# powerplan
+## Get windows power plan information
+
+powerplan is a new Python package to get information about your current windows power plan using subprocess module.
+## Features
+
+- Get GUID of your current windows power plan
+- Get name of your current windows power plan
+
+## Installation
+
+winpower requires [Python](https://www.python.org/) v3+ to run.
+
+## Usage
+
+```py
+import powerplan
+name = powerplan.get_current_scheme_name()
+guid = powerplan.get_current_scheme_guid()
+print(name, guid)
+```
+## License
+
+MIT
+
+**Made by Temal#5222**
