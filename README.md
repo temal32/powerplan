@@ -18,6 +18,9 @@ import powerplan
 name = powerplan.get_current_scheme_name()
 guid = powerplan.get_current_scheme_guid()
 print(name, guid)
+powerplan.change_current_scheme_to_powersaver()
+powerplan.change_current_scheme_to_balanced()
+powerplan.change_current_scheme_to_high()
 ```
 ## License
 
