@@ -10,7 +10,7 @@ powerplan is a new Python package to get information about your current windows 
 
 ## Installation
 
-powerplan requires [Python](https://www.python.org/) v3+ to run.
+powerplan requires [Python](https://www.python.org/) Version 3+ to run.
 
 ## Usage
 
@@ -27,4 +27,5 @@ powerplan.change_current_scheme_to_high()
 
 MIT
 
-**Made by Temal#5222**
+**Made by Colin Möß aka. Temal in Germany**
+[www.colinm.de](https://colinm.de/)
